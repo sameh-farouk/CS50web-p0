@@ -3,10 +3,10 @@
 Web Programming with Python and JavaScript
 
 this is a personal static web site includes:
-- home page  
-- about page 
-- resume page
-- conatct page
+- home page: index.html
+- about page: about.html
+- resume page: resume.html
+- conatct page: contact.html
 
 i used two Bootstrap columns using Bootstrap’s grid model , will shrink to one column in smaller screen.
 i used @media print to hide header and footer when printing also to make background color white.
