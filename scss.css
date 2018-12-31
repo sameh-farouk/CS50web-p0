@@ -1,0 +1,24 @@
+.side {
+  text-align: left;
+}
+.side ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  background-color: gold;
+}
+
+.darkerName {
+  color: skyblue;
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: bolder;
+}
+
+.darkerName {
+  color: #52b9e2;
+}
+
+/*# sourceMappingURL=scss.css.map */

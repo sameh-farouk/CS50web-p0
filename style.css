@@ -1,0 +1,80 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: beige!important;
+}
+
+header {
+  padding-top: 20px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+main, footer{
+  text-align: center;
+}
+
+footer{
+  background-color: gold;
+  height: 35px;
+}
+
+#about {
+  text-align: justify;
+}
+
+#contact, #resume {
+  text-align: left;
+}
+
+.container-fluid {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.name {
+  color: skyblue;
+  font-family: 'Sedgwick Ave', cursive;
+    font-weight: bolder;
+}
+
+.rounded-circle {
+  max-width: 80%;
+  height: auto;   
+}
+
+.side {
+  text-align: left;
+}
+.side ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+@media print {
+  html, body {
+    background-color: white;
+  }
+  .screen-only {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .rounded-circle {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 575.98px) {   
+    .rounded-circle {
+      width: 50vw;
+    } 
+}

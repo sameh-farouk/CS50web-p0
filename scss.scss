@@ -1,0 +1,27 @@
+$color: gold;
+
+.side {
+    text-align: left;
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+  }
+}
+
+footer {
+    background-color: $color;
+}
+
+%name {
+    color: skyblue;
+    font-family: 'Sedgwick Ave', cursive;
+    font-weight: bolder;
+}
+
+.darkerName {
+    @extend %name;
+    color: rgb(82, 185, 226);
+}
